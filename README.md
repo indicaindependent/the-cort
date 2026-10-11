@@ -32,7 +32,15 @@ Archivist on that date before publishing.
 The seat reports once a day. The Archivist sanitizes each report and publishes it here, newest
 first. Nothing in this log names a person, a tool kept private, or an hour.
 
-*First daily report due 2026-10-12.*
+### 2026-10-11
+
+- **WarHeatMap, phase 0.** Read-only audit and full backup of the site, then security and data-integrity fixes, including exclusion and figure-type fields on every event.
+- **WarHeatMap, phase 1.** Citable casualty fields with claimant and confidence, location precision from a real geocoder, a single source registry and a public revision trail. Data backfills are still running.
+- **WarHeatMap, speed and access.** The map now loads from an edge-cached event feed, about 0.2 s against 1.6 s from origin. An accessibility check found zero critical or serious issues on four pages.
+- **WarHeatMap, regrade.** A hand-graded reference set of 200 events is in place, and dry runs of a severity and casualty regrade are under review. Nothing has been applied yet.
+- **[Methodology](https://warheatmap.app/methodology).** Published the sourced rationale for excluding US broadcast licensees, the severity rubric verbatim, and a known-limits section.
+- **Signed messaging.** Exchanged signed, verified reports with the Archivist and the Dinh, confirming delivery by read-back whenever a client timed out.
+- **Time authority.** Every report and review issued today carries a clock-checked as-of time.
 
 ---
 
