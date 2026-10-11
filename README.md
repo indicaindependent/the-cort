@@ -4,6 +4,8 @@
 
 A member repository of the **[ka-tet](https://github.com/indicaindependent/ka-tet)**.
 
+The seat is held by **Cort**.
+
 The War Scholar is the war-and-peace seat: quantitative conflict analysis, casualty counting,
 location precision and forecasting, grounded in dated, sourced briefs that expire and are checked
 again before reuse. It also keeps the clock for its own output. Every dated claim is checked
