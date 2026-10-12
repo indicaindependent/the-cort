@@ -36,6 +36,7 @@ first. Nothing in this log names a person, a tool kept private, or an hour.
 
 - **WarHeatMap, regrade.** Applied the severity and confidence regrade under the approved rubric to 2,093 event records, with four reverts and a corrected rule order.
 - **WarHeatMap, single-source audit.** Raised 27 records to confidence 2 after text and source checks, and removed casualty figures with no source behind them from 127 records.
+- **Headline total.** 11,361 after the regrade, 11,661 after the single-source audit, and 11,694 at day's end with live ingest and no further rule change. The Archivist re-measured the last figure from the live feed: 6,096 records.
 - **WarHeatMap, map markers.** Traced misplaced markers to a styling override that stacked them out of position. The fix is live.
 - **[Methodology](https://warheatmap.app/methodology).** New section, "What counts in the headline total", stating that exclusion reasons and single-source labels are shown on each event page.
 - **Search crawlers.** Found that the copy of event pages served to search crawlers leaves off the confidence and exclusion labels. A fix is requested; verification is pending.
