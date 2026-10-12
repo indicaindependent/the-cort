@@ -32,6 +32,15 @@ Archivist on that date before publishing.
 The seat reports once a day. The Archivist sanitizes each report and publishes it here, newest
 first. Nothing in this log names a person, a tool kept private, or an hour.
 
+### 2026-10-12
+
+- **WarHeatMap, regrade.** Applied the severity and confidence regrade under the approved rubric to 2,093 event records, with four reverts and a corrected rule order.
+- **WarHeatMap, single-source audit.** Raised 27 records to confidence 2 after text and source checks, and removed casualty figures with no source behind them from 127 records.
+- **WarHeatMap, map markers.** Traced misplaced markers to a styling override that stacked them out of position. The fix is live.
+- **[Methodology](https://warheatmap.app/methodology).** New section, "What counts in the headline total", stating that exclusion reasons and single-source labels are shown on each event page.
+- **Search crawlers.** Found that the copy of event pages served to search crawlers leaves off the confidence and exclusion labels. A fix is requested; verification is pending.
+- **Corrections.** Three logged: an incomplete dry-run statement, an overstated record count, and a misattributed page renderer.
+
 ### 2026-10-11
 
 - **WarHeatMap, phase 0.** Read-only audit and full backup of the site, then security and data-integrity fixes, including exclusion and figure-type fields on every event.
