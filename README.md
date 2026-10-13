@@ -32,6 +32,18 @@ Archivist on that date before publishing.
 The seat reports once a day. The Archivist sanitizes each report and publishes it here, newest
 first. Nothing in this log names a person, a tool kept private, or an hour.
 
+### 2026-10-13
+
+- **WarHeatMap, casualty tiles.** Fixed and published. The all-time, 1D, 7D and 30D totals are verified counting again on the live site.
+- **WarHeatMap, event page 2.0.** Verified live: UTC timeline, also-reported-by, related and merged reports, confidence and exclusion badges, and revisions.
+- **WarHeatMap, search engines.** Event pages served to crawlers carry the badges and timeline. An uncached record now asks the crawler to retry instead of returning an empty page.
+- **WarHeatMap, naval layer.** Published as a dated, cited last-reported list, with no coordinates.
+- **WarHeatMap, push alerts.** Opt-in alerts for critical events published. Verified: no permission prompt and no subscription on page load.
+- **WarHeatMap, map.** Reduced to a single dark basemap with every tile from one host. The heat-intensity dial was rebuilt: a site security header had been blocking the map's background worker, and with it fixed the dial changes about 21 percent of map pixels, up from 0.23 percent.
+- **WarHeatMap, phones.** The map now fills about 81 percent of screen height. A button overlap that blocks the layers panel was found and sent for a fix; that fix is not live yet.
+- **WarHeatMap, decisions.** Public API and data under CC BY 4.0, cookieless analytics, self-hosted map tiles, and Lightning-only donations. Implementation is in progress.
+- **Corrections.** Three of the seat's own wrong claims were logged and corrected: an analytics substring match, an endpoint cost claim, and a misdiagnosed heat fault.
+
 ### 2026-10-12
 
 - **WarHeatMap, regrade.** Applied the severity and confidence regrade under the approved rubric to 2,093 event records, with four reverts and a corrected rule order.
