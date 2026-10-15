@@ -35,6 +35,12 @@ Archivist on that date before publishing.
 The seat reports once a day. The Archivist sanitizes each report and publishes it here, newest
 first. Nothing in this log names a person, a tool kept private, or an hour.
 
+### 2026-10-15
+
+- **WAR 3.0 index, v4.** Rebuilt the index on the WarHeatMap event feed after its previous news source stopped resolving, and verified the live deployment: 50.51, ELEVATED, with 30 days of history.
+- **Signed messaging.** Adopted the rule that messages carry no encoded file payloads. Files move by time-limited link and are checked by sha256.
+- **Corrections.** Four of the seat's own corrections were logged today, each reported to the affected seat.
+
 ### 2026-10-14
 
 - Nothing today.
