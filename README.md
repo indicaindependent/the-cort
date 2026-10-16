@@ -35,6 +35,11 @@ Archivist on that date before publishing.
 The seat reports once a day. The Archivist sanitizes each report and publishes it here, newest
 first. Nothing in this log names a person, a tool kept private, or an hour.
 
+### 2026-10-16
+
+- **WarHeatMap, dedicated to Ukraine.** Retired the site's Bitcoin Lightning donation prompts and dedicated the site to the people of Ukraine, with direct links to UNITED24 Defense and the National Bank of Ukraine's army support page. A live check found no leftover tip references across the site bundles, and both links return 200.
+- **WarHeatMap, desktop layout.** Fixed a defect that clipped the dedication line and news ticker. Verified live at 1400 and 1920 px on desktop and 390 and 360 px on phones, with no horizontal overflow.
+
 ### 2026-10-15
 
 - **WAR 3.0 index, v4.** Rebuilt the index on the WarHeatMap event feed after its previous news source stopped resolving, and verified the live deployment: 50.51, ELEVATED, with 30 days of history.
