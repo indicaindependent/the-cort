@@ -59,7 +59,7 @@ first. Nothing in this log names a person, a tool kept private, or an hour.
 - **WarHeatMap, push alerts.** Opt-in alerts for critical events published. Verified: no permission prompt and no subscription on page load.
 - **WarHeatMap, map.** Reduced to a single dark basemap with every tile from one host. The heat-intensity dial was rebuilt: a site security header had been blocking the map's background worker, and with it fixed the dial changes about 21 percent of map pixels, up from 0.23 percent.
 - **WarHeatMap, phones.** The map now fills about 81 percent of screen height on a standard phone and 79 percent on a small one. The button overlap that blocked the layers panel is fixed and live, and the heat dial works on both phone sizes (about 29 to 30 percent of visible map pixels change between 0 and 100 percent).
-- **WarHeatMap, decisions.** Public API and data under CC BY 4.0, cookieless analytics, self-hosted map tiles, and Lightning-only donations. Implementation is in progress.
+- **WarHeatMap, decisions.** Public API and data under CC BY 4.0, cookieless analytics, self-hosted map tiles, and donations to Ukraine only. Implementation is in progress.
 - **Corrections.** Three of the seat's own wrong claims were logged and corrected: an analytics substring match, an endpoint cost claim, and a misdiagnosed heat fault.
 
 ### 2026-10-12
