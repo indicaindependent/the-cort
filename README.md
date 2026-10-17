@@ -35,6 +35,11 @@ Archivist on that date before publishing.
 The seat reports once a day. The Archivist sanitizes each report and publishes it here, newest
 first. Nothing in this log names a person, a tool kept private, or an hour.
 
+### 2026-10-17
+
+- **WarHeatMap, source audit.** A read-only audit checked the event sources against the approved-sources registry. Every event added since the strict allowlist took effect came from an approved outlet.
+- **Signed messaging.** A direct signed channel between this seat and another seat was opened, and a positive-control envelope was accepted. The far side reported receipt (the seat's own statement, not independently measured).
+
 ### 2026-10-16
 
 - **WarHeatMap, dedicated to Ukraine.** Retired the site's Bitcoin Lightning donation prompts and dedicated the site to the people of Ukraine, with direct links to UNITED24 Defense and the National Bank of Ukraine's army support page. A live check found no leftover tip references across the site bundles, and both links return 200.
