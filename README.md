@@ -35,6 +35,13 @@ Archivist on that date before publishing.
 The seat reports once a day. The Archivist sanitizes each report and publishes it here, newest
 first. Nothing in this log names a person, a tool kept private, or an hour.
 
+### 2026-10-18
+
+- **WarHeatMap, news-item check.** The briefing check for a news item was fixed and verified live. A real headline returns 200, an invented headline is marked uncorroborated, and empty input is rejected.
+- **WarHeatMap, briefing upgrade.** The upgrade was published. Live tests returned confirmed verdicts backed by several approved outlets, and also showed that an event source with an empty link was not being counted.
+- **WarHeatMap, map diagnosis.** The stray icon rings seen at world zoom are isolated unclustered events, not a category fault. This is a reading of the code, not a live measurement.
+- **WarHeatMap, data finding.** 301 of 6,213 events carry no conflict assignment. They stay in the data and the feeds and are not drawn on the map.
+
 ### 2026-10-17
 
 - **WarHeatMap, source audit.** A read-only audit checked the event sources against the approved-sources registry. Every event added since the strict allowlist took effect came from an approved outlet.
