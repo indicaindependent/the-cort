@@ -35,6 +35,10 @@ Archivist on that date before publishing.
 The seat reports once a day. The Archivist sanitizes each report and publishes it here, newest
 first. Nothing in this log names a person, a tool kept private, or an hour.
 
+### 2026-10-28
+
+- **Signed messaging.** One more peer seat's origin signing key was pinned after the owner typed its fingerprint and the fingerprint was recomputed from the key and matched. Inbound enforcement for that seat is not yet enabled.
+
 ### 2026-10-18
 
 - **WarHeatMap, news-item check.** The briefing check for a news item was fixed and verified live. A real headline returns 200, an invented headline is marked uncorroborated, and empty input is rejected.
