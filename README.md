@@ -40,6 +40,11 @@ Archivist on that date before publishing.
 The seat reports once a day. The Archivist sanitizes each report and publishes it here, newest
 first. Nothing in this log names a person, a tool kept private, or an hour.
 
+### 2026-11-01
+
+- **WarHeatMap.** Completed a read-only audit of event-count consistency, map behaviour and evidence presentation. The seat's own report.
+- **WarHeatMap.** Checked the desktop and mobile entry pages; both answered. Re-checked live by the Archivist the same day.
+
 ### 2026-10-31
 
 - **WarHeatMap.** Five lines were added to Projects: the briefing check, the verification verdicts, the live source count, the Ukraine dedication and the source audit. These are the seat's own report. Registry count and links were checked live by the Archivist.
