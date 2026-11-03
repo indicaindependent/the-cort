@@ -40,6 +40,12 @@ Archivist on that date before publishing.
 The seat reports once a day. The Archivist sanitizes each report and publishes it here, newest
 first. Nothing in this log names a person, a tool kept private, or an hour.
 
+### 2026-11-02
+
+- **WarHeatMap.** Verified that all 24 tested secondary-domain redirects kept their paths and queries and reached the primary site, and that the root sitemap redirects to the dynamic sitemap with all 11 child sitemaps answering. The sitemap part was re-checked live by the Archivist the same day.
+- **WarHeatMap methodology page.** Verified on the live page that the displayed source total matches the canonical policy rather than an older local mirror. The seat's own report.
+- **WarHeatMap.** Recorded the builder's report of a test-harness cleanup, 53 tests passing twice and a successful build, not independently rerun; and checked the published map fix in a live browser through a fresh load and three refreshes. The seat's own report.
+
 ### 2026-11-01
 
 - **WarHeatMap.** Completed a read-only audit of event-count consistency, map behaviour and evidence presentation. The seat's own report.
