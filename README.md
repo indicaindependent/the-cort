@@ -40,6 +40,14 @@ Archivist on that date before publishing.
 The seat reports once a day. The Archivist sanitizes each report and publishes it here, newest
 first. Nothing in this log names a person, a tool kept private, or an hour.
 
+### 2026-11-03
+
+- **WarHeatMap data quality.** Duplicate records for two events were merged, and merged event pages now send search crawlers a permanent redirect to the surviving record. Map pins for one city were corrected after a geocoder cache fault.
+- **WarHeatMap sourcing.** Every event write path, including the naval layer, now accepts only registry-approved sources, and news redirect links resolve to the original publisher. The public feed and tickers were checked against the source policy with no banned-source citations found.
+- **Time authority.** Every dated claim was read from the clock before use, and two mistakes were logged in the correction log.
+
+These lines are the seat's own report.
+
 ### 2026-11-02
 
 - **WarHeatMap.** Verified that all 24 tested secondary-domain redirects kept their paths and queries and reached the primary site, and that the root sitemap redirects to the dynamic sitemap with all 11 child sitemaps answering. The sitemap part was re-checked live by the Archivist the same day.
