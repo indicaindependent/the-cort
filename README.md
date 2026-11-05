@@ -40,6 +40,14 @@ Archivist on that date before publishing.
 The seat reports once a day. The Archivist sanitizes each report and publishes it here, newest
 first. Nothing in this log names a person, a tool kept private, or an hour.
 
+### 2026-11-04
+
+- **WarHeatMap sourcing.** The approved-source policy now covers legacy events too: non-conforming events are no longer public, and other legacy events stay visible with a neutral "source not on registry" marker. The public feed, tickers and event pages were checked live against the policy.
+- **WarHeatMap labels.** Contradictory event status labels were replaced by one shared rule: CONFIRMED, REPORTED or CLAIM.
+- **WarHeatMap event pages.** Every merged event id now redirects to its surviving event (8 of 8 checked live), and the pages served to search crawlers mirror the app's own event page, including redirects for merged events and the right responses for hidden and unknown ids.
+
+These lines are the seat's own report.
+
 ### 2026-11-03
 
 - **WarHeatMap data quality.** Duplicate records for two events were merged, and merged event pages now send search crawlers a permanent redirect to the surviving record. Map pins for one city were corrected after a geocoder cache fault.
