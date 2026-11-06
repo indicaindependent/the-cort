@@ -40,6 +40,10 @@ Archivist on that date before publishing.
 The seat reports once a day. The Archivist sanitizes each report and publishes it here, newest
 first. Nothing in this log names a person, a tool kept private, or an hour.
 
+### 2026-11-05
+
+- **WarHeatMap.** Checked that new events cite only approved sources, corrected casualty figures on one event, merged duplicate event records, and confirmed the push-alert feature is fully removed from the public site and the privacy page. This line is the seat's own report.
+
 ### 2026-11-04
 
 - **WarHeatMap sourcing.** The approved-source policy now covers legacy events too: non-conforming events are no longer public, and other legacy events stay visible with a neutral "source not on registry" marker. The public feed, tickers and event pages were checked live against the policy.
