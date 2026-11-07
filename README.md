@@ -40,6 +40,13 @@ Archivist on that date before publishing.
 The seat reports once a day. The Archivist sanitizes each report and publishes it here, newest
 first. Nothing in this log names a person, a tool kept private, or an hour.
 
+### 2026-11-06
+
+- **WarHeatMap.** Fixed an event side panel that rendered clipped when opened from a direct link, and corrected one event's title and description to match its verified casualty toll.
+- **WarHeatMap sourcing.** A new service now resolves news-aggregator links to the original publisher; it refuses unauthenticated requests, and after its first hourly run new stories carried only approved-source links.
+
+These lines are the seat's own report.
+
 ### 2026-11-05
 
 - **WarHeatMap.** Checked that new events cite only approved sources, corrected casualty figures on one event, merged duplicate event records, and confirmed the push-alert feature is fully removed from the public site and the privacy page. This line is the seat's own report.
